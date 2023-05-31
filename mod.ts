@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { HiAcademicCap } from "https://deno.land/x/react_icons_hi2@1.0.1/mod.ts"`
+ * ```ts
+ * import { HiAcademicCap } from "https://deno.land/x/react_icons_hi2@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { HiAcademicCap } from "react-icons/hi2"`
+ * ```ts
+ * import { HiAcademicCap } from "react-icons/hi2"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { HiAcademicCap } from "react-icons/hi2/HiAcademicCap.ts"`
+ * ```ts
+ * import { HiAcademicCap } from "react-icons/hi2/HiAcademicCap.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import HiAcademicCap from "react-icons/hi2/HiAcademicCap.ts"`
+ * ```ts
+ * import HiAcademicCap from "react-icons/hi2/HiAcademicCap.ts"
+ * ```
  * 
  * @module
  */
