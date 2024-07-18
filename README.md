@@ -1,4 +1,6 @@
-# Heroicons 2 icons for deno / Preact
+# Heroicons 2 icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/hi2)](https://jsr.io/@preact-icons/hi2)
 
 **License** [MIT](https://opensource.org/licenses/MIT)
 
@@ -13,10 +15,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/hi2":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-hi2@1.0.10/mod.ts",
-    "react-icons/hi2/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-hi2@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/hi2": "jsr:@preact-icons/hi2@^1.0.11/mod.ts",
+    "react-icons/hi2/": "jsr:@preact-icons/hi2@^1.0.11/ico/",
   }
 }
 ```
@@ -24,7 +28,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib hi2
 
 ```ts
-import { HiAcademicCap } from "https://deno.land/x/react_icons_hi2@1.0.10/mod.ts"
+import { HiAcademicCap } from "jsr:preact-icons/hi2@1.0.11/mod.ts"
 ```
 
 ## import_map import an icon from all icons
