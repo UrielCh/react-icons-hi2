@@ -42,5 +42,5 @@ import { HiAcademicCap } from "react-icons/hi2/HiAcademicCap"
 or using default export
 
 ```ts
-import HiAcademicCap from "react-icons/hi2/HiAcademicCap.ts"
+import HiAcademicCap from "react-icons/hi2/HiAcademicCap"
 ```
